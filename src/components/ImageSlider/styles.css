@@ -1,0 +1,46 @@
+.imageSlider{
+    position: relative;
+    height: 450px;
+    width: 600px;
+    box-shadow: 0, 0, 7, #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.current-image{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.inactive{
+    display: none;
+}
+.arrow{
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+.arrow-left{
+    left: 1rem;
+}
+.arrow-right{
+    right: 1rem;
+}
+.indicators{
+    position: absolute;
+    display: flex;
+    bottom: 2rem;
+}
+.current-indicator{
+    background-color: gray;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    margin: 0 0.2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.active{
+    background-color: white;
+}
