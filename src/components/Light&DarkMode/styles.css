@@ -1,0 +1,39 @@
+:root{
+    --backgroundColor: #fff;
+    --textColor: #000;
+    --buttonBg: #000;
+    --buttonText: #fff;
+}
+[data-theme = 'dark']{
+    --backgroundColor: #000;
+    --textColor: #fff;
+    --buttonBg: #fff;
+    --buttonText: #000;
+}
+
+
+.light-dark-mode{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--textColor);
+    background-color: var(--backgroundColor);
+    transition: all 0.5s;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container button{
+    background-color: var(--buttonBg);
+    color: var(--buttonText);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
