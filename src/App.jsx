@@ -11,6 +11,7 @@ import TreeViewdata from "./components/TreeView/data";
 import LightAndDarkMode from "./components/Light&DarkMode";
 import ScrollIndicator from "./components/Scroll-Indicator";
 import TestTabs from "./components/CustomTabs/testTabs";
+import TestModal from "./components/CustomPopUpModal/TestModal";
 
 const App = () => {
   return (
@@ -33,7 +34,10 @@ const App = () => {
 
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-      <TestTabs />
+      {/* <TestTabs /> */}
+
+      <TestModal />
+      
     </div>
   );
 };
