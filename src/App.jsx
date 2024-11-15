@@ -12,6 +12,7 @@ import LightAndDarkMode from "./components/Light&DarkMode";
 import ScrollIndicator from "./components/Scroll-Indicator";
 import TestTabs from "./components/CustomTabs/testTabs";
 import TestModal from "./components/CustomPopUpModal/TestModal";
+import ProfileFinder from "./components/GitHubProfileFinder/ProfileFinder";
 
 const App = () => {
   return (
@@ -36,7 +37,9 @@ const App = () => {
 
       {/* <TestTabs /> */}
 
-      <TestModal />
+      {/* <TestModal /> */}
+
+      <ProfileFinder />
       
     </div>
   );
