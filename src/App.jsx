@@ -13,6 +13,7 @@ import ScrollIndicator from "./components/Scroll-Indicator";
 import TestTabs from "./components/CustomTabs/testTabs";
 import TestModal from "./components/CustomPopUpModal/TestModal";
 import ProfileFinder from "./components/GitHubProfileFinder/ProfileFinder";
+import SearchAutoComplete from "./components/SearchAutoComplete";
 
 const App = () => {
   return (
@@ -39,8 +40,10 @@ const App = () => {
 
       {/* <TestModal /> */}
 
-      <ProfileFinder />
+      {/* <ProfileFinder /> */}
       
+      <SearchAutoComplete />
+
     </div>
   );
 };
