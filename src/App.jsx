@@ -14,6 +14,7 @@ import TestTabs from "./components/CustomTabs/testTabs";
 import TestModal from "./components/CustomPopUpModal/TestModal";
 import ProfileFinder from "./components/GitHubProfileFinder/ProfileFinder";
 import SearchAutoComplete from "./components/SearchAutoComplete";
+import TicTacToe from "./components/TicTacToe/TicTacToe";
 
 const App = () => {
   return (
@@ -42,7 +43,9 @@ const App = () => {
 
       {/* <ProfileFinder /> */}
       
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+
+      <TicTacToe />
 
     </div>
   );
