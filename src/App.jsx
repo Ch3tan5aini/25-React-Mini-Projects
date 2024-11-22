@@ -17,6 +17,11 @@ import SearchAutoComplete from "./components/SearchAutoComplete";
 import TicTacToe from "./components/TicTacToe/TicTacToe";
 import FeatureFlagGloblalState from "./components/FeaturesFlag/context";
 import FeatureFlag from "./components/FeaturesFlag";
+import UseFetchHookTest from "./components/UseFetchHook/test";
+import OutsideClickHookTest from "./components/UseOutsideclickHook/test";
+import UseWindowResizeHookTest from "./components/UseWindowResizeHook/test";
+import ScrollTopAndBottom from "./components/ScrollTopAndBottom";
+import ScrollToSpecificSection from "./components/ScrollTopAndBottom/ScrollToSpecificSection";
 
 const App = () => {
   return (
@@ -44,15 +49,24 @@ const App = () => {
       {/* <TestModal /> */}
 
       {/* <ProfileFinder /> */}
-      
+
       {/* <SearchAutoComplete /> */}
 
       {/* <TicTacToe /> */}
 
-      <FeatureFlagGloblalState >
+      {/* <FeatureFlagGloblalState >
         <FeatureFlag />
-      </FeatureFlagGloblalState>
+      </FeatureFlagGloblalState> */}
 
+      {/* <UseFetchHookTest /> */}
+
+      {/* <OutsideClickHookTest /> */}
+
+      {/* <UseWindowResizeHookTest /> */}
+
+      {/* <ScrollTopAndBottom /> */}
+
+      <ScrollToSpecificSection />
     </div>
   );
 };
